@@ -24,7 +24,7 @@ El proyecto "GmailLogin" sigue una estructura organizada, haciendo uso del patr√
 
 ## Configuraci√≥n del Proyecto
 
-1. Clona el repositorio: `git clone [URL del repositorio]`
+1. Clona el repositorio: `git clone https://github.com/germanhrh/20231214_GermanRivera_GmailLogin.git`
 2. Abre el proyecto en IntelliJ IDEA.
 3. Configura las dependencias y bibliotecas necesarias usando Gradle.
 4. Ejecuta las pruebas desde las clases de prueba de Cucumber.
