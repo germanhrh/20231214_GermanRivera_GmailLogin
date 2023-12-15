@@ -5,7 +5,7 @@ Feature: Iniciar sesion exitosa en gmail
 
   Scenario: Iniciar sesion en gmail
     Given Deseo abrir la pagina de gmail "https://mail.google.com/"
-    When ingreso nombre de usuario "emmanueldiversiones@gmail.com" y password "101720Dfg_*"
+    When ingreso nombre de usuario "pepitoperez@gmail.com" y password "asdfasd*"
     Then Vaalido que el logueo sea valido para el usuario "Recibidos"
 
 #  Scenario Outline: Iniciar sesion en gmail
@@ -13,6 +13,6 @@ Feature: Iniciar sesion exitosa en gmail
 #    When ingreso nombre de usuario <user> y password <pass>
 #    Then Vaalido que el logueo sea valido para el usuario <usuario>
     #Examples:
-     # | user                | pass        | usuario             |
-      #| germanhrh@gmail.com | 101720DFg_* | germanhrh@gmail.com |
-      #| germanhrh@gmail.com | 101720DFg_* | germanhrh@gmail.com |
+      #| user                   | pass      | usuario   |
+      #| pepitoperez@gmail.com  | ewwerwqe* | Recibidos |
+      #| pepitoperez2@gmail.com | asdfasdf* | Recibidos |
